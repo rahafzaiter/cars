@@ -1,0 +1,51 @@
+.form-style{
+margin: 5rem;
+padding: 50px;
+}
+
+.card-group{
+  display: inline-block;
+  margin: 50px;
+  border: 1px dotted black;
+}
+
+.cars{
+  border: 5px solid black;
+}
+.form-group{
+  margin: 20px;
+}
+
+.object {
+  animation: MoveUpDown 1s linear infinite;
+  position: absolute;
+  /* left: 0; */
+  bottom: 0;
+  /* width: 200px;
+  height: 200px; */
+  /* display: flex;
+justify-content: center;
+  text-align: center;
+  padding: 50px 0; */
+}
+.object span{
+  content: "\2193";
+  font-size:50px;
+  display: flex;
+  justify-content: center;
+    text-align: center;
+    padding: 50px 0;
+}
+/* .arrow{
+  width: 200px;
+  height: 200px;
+} */
+
+@keyframes MoveUpDown {
+  0%, 100% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 100px;
+  }
+}

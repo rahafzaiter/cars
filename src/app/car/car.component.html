@@ -1,0 +1,41 @@
+<div>
+  <!-- <p>{{title | uppercase }}</p> -->
+  <!-- <p>{{title | uppercase }} // {{price | currency:'symbol':'LBP'}}</p> -->
+  <!-- <img src="{{image}}" alt="image of post"> -->
+
+
+
+  <div class="card col-sm-6">
+    <img class="card-img-top" src="{{image}}" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">{{title | uppercase }}</h5>
+      <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+      <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<!-- <p>{{title  | demo}}</p>
+<select (change)="changeTitle($event)">
+  <option *ngFor="let p of proffesions">
+    {{p}}
+  </option>
+</select>
+
+<p *ngIf="showHide">On</p>
+<button (click)="ChangeTitle()">Change Title</button>
+
+<p [ngStyle]="{color:this.warning?'red':'green'}">{{message}}</p>
+<p [ngClass]="this.warning?'Warning?':'Normal'">{{message}}</p> -->
+
+<!-- or -->
+<!-- <p [ngClass]="{'Warning':this.warning==true,'Normal':this.warning==false}">{{message}}</p> -->
+
+<!-- <input type="text" [value]="title"> -->
+<!-- <input type="text" [value]="title" [(ngModel)]="title">
+
+<button class="btn btn-primary" (click)="ChangeCounter()" >counter</button> -->

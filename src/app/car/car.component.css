@@ -1,0 +1,15 @@
+.warning{
+  color: red;
+  font-size: large;
+}
+
+.Normal{
+  color: green;
+  font-size: medium;
+}
+
+.card
+{display:inline-block;
+  width: 18rem;
+  flex-direction: row;
+}
